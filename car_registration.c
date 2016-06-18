@@ -72,7 +72,7 @@ void menu (void){
 void print_single_info (REG *car, int n){
 
     printf ("Option 1 - Select a car: "); scanf ("%d", &n);
-    printf ("\n\nCar %d\nModel: %s\nManufacturer: %s\nColor: %s\nYear: %d\nPrice: %.2f", n, car[n-1].model, car[n-1].manufacturer, car[n-1].color, car[n-1].year, car[n-1].price);
+    printf ("\n\nCar %d\nModel: %s\nManufacturer: %s\nColor: %s\nYear: %d\nPrice: %.2f\n\n", n, car[n-1].model, car[n-1].manufacturer, car[n-1].color, car[n-1].year, car[n-1].price);
 }
 //this function prints all the info about all cars. It receives my vector of structures and the total of cars registered
 void print_all_info (REG *cars, int total_cars){
