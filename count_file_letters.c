@@ -27,7 +27,7 @@ int main (){
     }
     counts_letter_occurrence (arq, alphabet);
     prints_letter_occurrence (alphabet);
-    fclose (arq);
+    fclose (arq);//never forget to close your files!
     return 0;
 }
 
